@@ -1,0 +1,48 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.h3-enhanced {
+    font-size: 25px;
+}
+
+.hr-md-blur {
+    border: none;
+    height: 3px;
+    color: #BCBBBB; /* old IE */
+    background-color: #BCBBBB;  /* modern browsers */
+    box-shadow: 0px 1px 4px #CFCFCF;
+}
+
+/*
+ * I had to add this class because the Bootstrap provided class doesn't work.
+ * There is the bug in FF: https://bugzilla.mozilla.org/show_bug.cgi?id=261037
+ * but it doesn't work in Chrome on Ubuntu 14.04 too. I used this tweak:
+ * http://stackoverflow.com/a/24794754
+ */
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
